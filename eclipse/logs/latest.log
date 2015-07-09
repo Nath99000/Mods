@@ -1,0 +1,400 @@
+[09:55:31] [main/INFO]: Setting user: Player976
+[09:55:35] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:55:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[09:55:57] [Sound Library Loader/INFO]: Sound engine started
+[09:56:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:56:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:56:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[09:56:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:56:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:56:05] [Sound Library Loader/INFO]: Sound engine started
+[09:56:16] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:56:16] [Server thread/INFO]: Generating keypair
+[09:56:17] [Server thread/INFO]: Preparing start region for level 0
+[09:56:17] [Server thread/INFO]: Changing view distance to 9, from 10
+[09:56:19] [Server thread/INFO]: Player976[local:E:56754140] logged in with entity id 6 at (-36.957743529981464, 56.0, 699.3558838285819)
+[09:56:19] [Server thread/INFO]: Player976 joined the game
+[09:56:21] [Server thread/INFO]: Player976 has just earned the achievement [Taking Inventory]
+[09:56:21] [Client thread/INFO]: [CHAT] Player976 has just earned the achievement [Taking Inventory]
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:14] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:14] [Client thread/ERROR]: @ Post render
+[09:58:14] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:15] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:15] [Client thread/ERROR]: @ Post render
+[09:58:15] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:16] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:16] [Client thread/ERROR]: @ Post render
+[09:58:16] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:17] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:17] [Client thread/ERROR]: @ Post render
+[09:58:17] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:18] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:18] [Client thread/ERROR]: @ Post render
+[09:58:18] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:18] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:18] [Client thread/ERROR]: @ Post render
+[09:58:18] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:23] [Server thread/INFO]: Saving and pausing game...
+[09:58:23] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[09:58:23] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[09:58:23] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:25] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:25] [Client thread/ERROR]: @ Post render
+[09:58:25] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:26] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:26] [Client thread/ERROR]: @ Post render
+[09:58:26] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:27] [Client thread/ERROR]: @ Post render
+[09:58:27] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[09:58:28] [Client thread/ERROR]: @ Post render
+[09:58:28] [Client thread/ERROR]: 1286: Invalid framebuffer operation
+[09:58:38] [Client thread/INFO]: [CHAT] Saved screenshot as 2015-07-09_09.58.38.png
+[09:58:40] [Server thread/INFO]: Saving and pausing game...
+[09:58:40] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[09:58:40] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[09:58:40] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[09:58:41] [Server thread/INFO]: Stopping server
+[09:58:41] [Server thread/INFO]: Saving players
+[09:58:41] [Server thread/INFO]: Saving worlds
+[09:58:41] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[09:58:41] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[09:58:41] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[09:58:43] [Client thread/INFO]: Stopping!
