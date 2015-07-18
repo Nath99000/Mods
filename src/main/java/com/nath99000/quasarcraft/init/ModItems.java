@@ -1,9 +1,11 @@
 package com.nath99000.quasarcraft.init;
 
 import com.nath99000.quasarcraft.item.*;
+import com.nath99000.quasarcraft.item.Spice.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemSword;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems
@@ -11,19 +13,62 @@ public class ModItems
     public static final ItemBase Quasar = new ItemQuasar();
     public static final ItemBase QuasarEnder = new ItemQuasarEnder();
     public static Item.ToolMaterial WQUASAR = EnumHelper.addToolMaterial("WQUASAR", 3, 10000, 12.0F, 3.0F, 22);
+    public static Item.ToolMaterial MQuasar = EnumHelper.addToolMaterial("MQuasar", 4, 1000, 15.0F, 6.0F, 30);
+    public static Item.ToolMaterial SQuasar = EnumHelper.addToolMaterial("SQuasar", 5, 750, 23.0F, 18.5F, 35);
     public static ItemArmor.ArmorMaterial AWQUASAR = EnumHelper.addArmorMaterial("AWQUASAR", 10000, new int[]{3, 8, 6, 3}, 25);
+    public static ItemArmor.ArmorMaterial AMQuasar = EnumHelper.addArmorMaterial("AMQuasar", 1000, new int[]{5, 10, 8, 5}, 30);
+    public static ItemArmor.ArmorMaterial ASQuasar = EnumHelper.addArmorMaterial("ASQuasar", 750, new int[]{7, 13, 11, 7}, 35);
     public static final ItemBase MiniStar = new ItemMiniStar();
     public static Item QLegs;
     public static Item QChest;
     public static Item QHelm;
     public static Item QBoot;
+    public static Item QMHelm;
+    public static Item QMChest;
+    public static Item QMLegs;
+    public static Item QMBoot;
+    public static Item QSHelm;
+    public static Item QSChest;
+    public static Item QSLegs;
+    public static Item QSBoots;
     public static final ItemBase ProtQuasar = new ItemProtQuasar();
     public static Item QuasarPickaxe;
+    public static Item MQuasarPickaxe;
     public static Item QuasarSword;
+    public static Item MQuasarSword;
+    public static Item SQuasarSword;
     public static final ItemBase Rock = new ItemRock();
     public static final ItemBase MiniPlanet = new ItemMiniPlanet();
     public static final ItemBase DarkMatter = new ItemDarkMatter();
-
+    public static final ItemBase BlazeEssence = new ItemBlazeEssence();
+    public static final ItemBase QuasarBlaze = new ItemQuasarBlaze();
+    public static final ItemBase StarDust = new ItemStarDust();
+    public static final ItemBase NebulousGas = new ItemNebulousGas();
+    public static final ItemBase Nebula = new ItemNebula();
+    public static final ItemBase SolarSystem = new ItemSolarSystem();
+    public static final ItemBase QuasiSun = new ItemQuasiSun();
+    public static final ItemBase CelestialSphere = new ItemCelestialSphere();
+    public static final ItemBase SphereSun = new ItemSphereSun();
+    public static final ItemBase QuasarMid = new ItemQuasarMid();
+    public static final ItemBase ProtMQuasar = new ItemProtMQuasar();
+    public static final ItemBase SOL = new ItemSOL();
+    public static final ItemQCFood PGGB = new ItemPGGB();
+    public static final ItemQCFood FriedEgg = new ItemFriedEgg();
+    public static final ItemBase Spice = new ItemSpice();
+    public static final ItemBase YSpice = new ItemYSpice();
+    public static final ItemBase BSpice = new ItemBSpice();
+    public static final ItemBase GSpice = new ItemGSpice();
+    public static final ItemBase PSpice = new ItemPSpice();
+    public static final ItemBase XPSpice = new ItemXPSpice();
+    public static final ItemBase Lemon = new ItemLemon();
+    public static final ItemQCFood TrailMix = new ItemTrailMix();
+    public static final ItemQCFood Uranium = new ItemUranium();
+    public static final ItemQCFood Bacon = new ItemBacon();
+    public static final ItemBase QuasarHigh = new ItemQuasarHigh();
+    public static final ItemBase Galaxy = new ItemGalaxy();
+    public static final ItemBase DigitalWatch = new ItemDigitalWatch();
+    public static final ItemBase RedCrystal = new ItemRedcrystal();
+    public static final ItemBase ProtSQuasar = new ItemProtSQuasar();
 
 
     public static void  init() {
@@ -34,11 +79,51 @@ public class ModItems
         GameRegistry.registerItem(QChest = new ItemQCArmor("WeakQuasarChest", AWQUASAR, "WeakQuasar", 1), "WeakQuasarChest");
         GameRegistry.registerItem(QHelm = new ItemQCArmor("WeakQuasarHelm", AWQUASAR, "WeakQuasar", 0), "WeakQuasarHelm");
         GameRegistry.registerItem(QBoot = new ItemQCArmor("WeakQuasarBoots", AWQUASAR, "WeakQuasar", 3), "WeakQuasarBoots");
+        GameRegistry.registerItem(QMHelm = new ItemQCMidArmor("MidQuasarHelm", AMQuasar, "MidQuasar", 0), "MidQuasarHelm");
+        GameRegistry.registerItem(QMChest = new ItemQCMidArmor("MidQuasarChest", AMQuasar, "MidQuasar", 1), "MidQuasarChest");
+        GameRegistry.registerItem(QMLegs = new ItemQCMidArmor("MidQuasarLegs", AMQuasar, "MidQuasar", 2), "MidQuasarLegs");
+        GameRegistry.registerItem(QMBoot = new ItemQCMidArmor("MidQuasarBoots", AMQuasar, "MidQuasar", 3), "MidQuasarBoots");
+        GameRegistry.registerItem(QSHelm = new ItemQCHighArmor("HighQuasarHelm", ASQuasar, "HighQuasar", 0), "HighQuasarHelm");
+        GameRegistry.registerItem(QSChest = new ItemQCHighArmor("HighQuasarChest", ASQuasar, "HighQuasar", 1), "HighQuasarChest");
+        GameRegistry.registerItem(QSLegs = new ItemQCHighArmor("HighQuasarLegs", ASQuasar, "HighQuasar", 2), "HighQuasarLegs");
+        GameRegistry.registerItem(QSBoots = new ItemQCHighArmor("HighQuasarBoots", ASQuasar, "HighQuasar", 3), "HighQuasarBoots");
         GameRegistry.registerItem(ProtQuasar, "ProtQuasar");
         GameRegistry.registerItem(QuasarPickaxe = new ItemQCPickAxe("WeakQuasarPickaxe", WQUASAR), "WeakQuasarPick");
+        GameRegistry.registerItem(MQuasarPickaxe = new ItemQCMidPickaxe("MQuasarPickaxe", MQuasar), "QCMidPickaxe");
         GameRegistry.registerItem(QuasarSword = new ItemQCSword("WeakQuasarSword", WQUASAR), "WeakQuasarSword");
+        GameRegistry.registerItem(MQuasarSword = new ItemQCMidSword("MQuasarSword", MQuasar), "QCMidSword");
+        GameRegistry.registerItem(SQuasarSword = new ItemQCHighSword("SQuasarSword", SQuasar), "QCHighSword");
         GameRegistry.registerItem(Rock, "Rock");
         GameRegistry.registerItem(MiniPlanet, "MiniPlanet");
         GameRegistry.registerItem(DarkMatter, "DarkMatter");
+        GameRegistry.registerItem(BlazeEssence, "BlazeEssence");
+        GameRegistry.registerItem(QuasarBlaze, "QuasarBlaze");
+        GameRegistry.registerItem(StarDust, "StarDust");
+        GameRegistry.registerItem(NebulousGas, "NebulousGas");
+        GameRegistry.registerItem(Nebula, "Nebula");
+        GameRegistry.registerItem(SolarSystem, "SolarSystem");
+        GameRegistry.registerItem(QuasiSun, "QuasiSun");
+        GameRegistry.registerItem(CelestialSphere, "CelestialSphere");
+        GameRegistry.registerItem(SphereSun, "SphereSun");
+        GameRegistry.registerItem(QuasarMid, "QuasarMid");
+        GameRegistry.registerItem(ProtMQuasar, "ProtMQuasar");
+        GameRegistry.registerItem(SOL, "SOL");
+        GameRegistry.registerItem(PGGB, "PGGB");
+        GameRegistry.registerItem(FriedEgg, "FriedEgg");
+        GameRegistry.registerItem(Spice, "Spice");
+        GameRegistry.registerItem(YSpice, "YSpice");
+        GameRegistry.registerItem(BSpice, "BSpice");
+        GameRegistry.registerItem(GSpice, "GSpice");
+        GameRegistry.registerItem(PSpice, "PSpice");
+        GameRegistry.registerItem(XPSpice, "XPSpice");
+        GameRegistry.registerItem(Lemon, "Lemon");
+        GameRegistry.registerItem(TrailMix, "TrailMix");
+        GameRegistry.registerItem(Uranium, "Uranium");
+        GameRegistry.registerItem(Bacon, "Bacon");
+        GameRegistry.registerItem(QuasarHigh, "QuasarHigh");
+        GameRegistry.registerItem(Galaxy, "Galaxy");
+        GameRegistry.registerItem(DigitalWatch, "DigitalWatch");
+        GameRegistry.registerItem(RedCrystal, "Redcrystal");
+        GameRegistry.registerItem(ProtSQuasar, "ProtSQuasar");
     }
 }

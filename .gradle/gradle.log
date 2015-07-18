@@ -10,6 +10,8 @@
 :apiClasses UP-TO-DATE
 :sourceMainJava
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
 :processResources
@@ -30,4 +32,4 @@
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 20.916 secs
+Total time: 1 mins 22.668 secs

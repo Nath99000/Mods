@@ -2,6 +2,7 @@ package com.nath99000.quasarcraft.utility;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTTagList;
 
 public class NBTHelper
 {
@@ -190,5 +191,9 @@ public class NBTHelper
         initNBTTagCompound(itemStack);
 
         itemStack.stackTagCompound.setDouble(keyName, keyValue);
+    }
+
+    {
+
     }
 }

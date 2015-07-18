@@ -20,6 +20,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.ArrowLooseEvent;
 import net.minecraftforge.event.entity.player.ArrowNockEvent;
 
+import java.util.List;
+
 public class ItemQuasarEnder extends ItemBase {
     public ItemQuasarEnder() {
         super();
@@ -41,6 +43,12 @@ public class ItemQuasarEnder extends ItemBase {
         }
 
         return p_77659_1_;
+    }
+    public void addInformation(ItemStack par1, EntityPlayer par2, List par3, boolean par4)
+    {
+        {
+            par3.add("Gently pulsating");
+        }
     }
 }
         /**

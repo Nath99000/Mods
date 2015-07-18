@@ -2,18 +2,21 @@ package com.nath99000.quasarcraft;
 
         import com.nath99000.quasarcraft.config.ConfigHandler;
         import com.nath99000.quasarcraft.init.ModBlocks;
+        import com.nath99000.quasarcraft.init.ModFluids;
         import com.nath99000.quasarcraft.init.ModItems;
         import com.nath99000.quasarcraft.init.Recipes;
         import com.nath99000.quasarcraft.proxy.Iproxy;
         import com.nath99000.quasarcraft.reference.Reference;
         import com.nath99000.quasarcraft.utility.LogHelper;
+        import com.nath99000.quasarcraft.world.QCWorldGen;
         import cpw.mods.fml.common.Mod;
         import cpw.mods.fml.common.SidedProxy;
         import cpw.mods.fml.common.event.FMLInitializationEvent;
         import cpw.mods.fml.common.event.FMLPostInitializationEvent;
         import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+        import cpw.mods.fml.common.registry.GameRegistry;
 
-        @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
+@Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
 public class quasarcraft
 {
             @Mod.Instance(Reference.Id)
@@ -31,11 +34,13 @@ public class quasarcraft
                 ModBlocks.init();
                 Recipes.init();
 
+
             }
 
             @Mod.EventHandler
     public void init(FMLInitializationEvent event)
             {
+                GameRegistry.registerWorldGenerator(new QCWorldGen(), 1);
                 LogHelper.info("I-i-i-i'm awake!!");
             }
 
