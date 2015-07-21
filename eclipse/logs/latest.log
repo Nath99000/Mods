@@ -1,46 +1,25 @@
-[18:03:44] [main/INFO]: Setting user: Player729
-[18:03:48] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:04:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
-[18:04:04] [Sound Library Loader/INFO]: Sound engine started
-[18:04:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:04:08] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[18:04:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
-[18:04:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:04:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[18:04:10] [Sound Library Loader/INFO]: Sound engine started
-[18:04:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:04:20] [Server thread/INFO]: Generating keypair
-[18:04:21] [Server thread/INFO]: Preparing start region for level 0
-[18:04:22] [Server thread/INFO]: Preparing spawn area: 74%
-[18:04:22] [Server thread/INFO]: Changing view distance to 2, from 10
-[18:04:24] [Server thread/INFO]: Player729[local:E:8c1f0bba] logged in with entity id 46 at (-33.61166455928209, 57.0, 705.6969212223696)
-[18:04:24] [Server thread/INFO]: Player729 joined the game
-[18:04:35] [Server thread/INFO]: Player729 has just earned the achievement [Taking Inventory]
-[18:04:35] [Client thread/INFO]: [CHAT] Player729 has just earned the achievement [Taking Inventory]
-[18:06:08] [Server thread/INFO]: [Player729: Changing to clear weather]
-[18:06:08] [Client thread/INFO]: [CHAT] Changing to clear weather
-[18:07:21] [Client thread/INFO]: [CHAT] Current Galactic Time: 9994
-[18:07:21] [Client thread/INFO]: [CHAT] Current Galactic Time: 9994
-[18:11:05] [Server thread/INFO]: Saving and pausing game...
-[18:11:05] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:11:05] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:11:05] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[18:12:12] [Server thread/INFO]: Saving and pausing game...
-[18:12:12] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:12:12] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:12:12] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[18:12:30] [Client thread/INFO]: [CHAT] Current Galactic Time: 9994
-[18:12:30] [Client thread/INFO]: [CHAT] Current Galactic Time: 9994
-[18:12:38] [Client thread/INFO]: [CHAT] Current Galactic Time: 9994
-[18:12:38] [Client thread/INFO]: [CHAT] Current Galactic Time: 9994
-[18:14:57] [Server thread/INFO]: Saving and pausing game...
-[18:14:57] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:14:57] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:14:57] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[18:14:58] [Server thread/INFO]: Stopping server
-[18:14:58] [Server thread/INFO]: Saving players
-[18:14:58] [Server thread/INFO]: Saving worlds
-[18:14:58] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[18:14:58] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[18:14:58] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[18:14:59] [Client thread/INFO]: Stopping!
+[17:17:51] [main/INFO]: Setting user: Player606
+[17:17:53] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:18:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[17:18:06] [Sound Library Loader/INFO]: Sound engine started
+[17:18:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:18:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:18:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[17:18:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:18:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[17:18:10] [Sound Library Loader/INFO]: Sound engine started
+[17:18:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:18:15] [Server thread/INFO]: Generating keypair
+[17:18:15] [Server thread/INFO]: Preparing start region for level 0
+[17:18:16] [Server thread/INFO]: Changing view distance to 5, from 10
+[17:18:17] [Server thread/INFO]: Player606[local:E:f3358cd7] logged in with entity id 40 at (-39.985154493997754, 57.0, 700.7448106606716)
+[17:18:17] [Server thread/INFO]: Player606 joined the game
+[17:18:21] [Server thread/INFO]: Player606 has just earned the achievement [Taking Inventory]
+[17:18:21] [Client thread/INFO]: [CHAT] Player606 has just earned the achievement [Taking Inventory]
+[17:18:55] [Client thread/INFO]: Stopping!
+[17:18:55] [Server thread/INFO]: Stopping server
+[17:18:55] [Server thread/INFO]: Saving players
+[17:18:55] [Server thread/INFO]: Saving worlds
+[17:18:55] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[17:18:55] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[17:18:55] [Server thread/INFO]: Saving chunks for level 'LOL'/The End

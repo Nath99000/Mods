@@ -1,20 +1,21 @@
 package com.nath99000.quasarcraft.init;
 
-import com.nath99000.quasarcraft.item.*;
-import com.nath99000.quasarcraft.item.Spice.*;
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
-import net.minecraft.item.ItemSword;
-import net.minecraftforge.common.util.EnumHelper;
+    import com.nath99000.quasarcraft.item.*;
+    import com.nath99000.quasarcraft.item.Modules.*;
+    import com.nath99000.quasarcraft.item.Spice.*;
+    import cpw.mods.fml.common.registry.GameRegistry;
+    import net.minecraft.item.Item;
+    import net.minecraft.item.ItemArmor;
+    import net.minecraftforge.common.util.EnumHelper;
 
-public class ModItems
-{
-    public static final ItemBase Quasar = new ItemQuasar();
-    public static final ItemBase QuasarEnder = new ItemQuasarEnder();
-    public static Item.ToolMaterial WQUASAR = EnumHelper.addToolMaterial("WQUASAR", 3, 10000, 12.0F, 3.0F, 22);
-    public static Item.ToolMaterial MQuasar = EnumHelper.addToolMaterial("MQuasar", 4, 1000, 15.0F, 6.0F, 30);
-    public static Item.ToolMaterial SQuasar = EnumHelper.addToolMaterial("SQuasar", 5, 750, 23.0F, 18.5F, 35);
+    public class ModItems
+    {
+        public static final ItemBase Quasar = new ItemQuasar();
+        public static final ItemBase QuasarEnder = new ItemQuasarEnder();
+        public static Item.ToolMaterial WQUASAR = EnumHelper.addToolMaterial("WQUASAR", 3, 10000, 12.0F, 3.0F, 22);
+        public static Item.ToolMaterial MQuasar = EnumHelper.addToolMaterial("MQuasar", 4, 1000, 15.0F, 6.0F, 30);
+        public static Item.ToolMaterial SQuasar = EnumHelper.addToolMaterial("SQuasar", 5, 450, 23.0F, 18.5F, 35);
+        public static Item.ToolMaterial Retriever = EnumHelper.addToolMaterial("Retriever", 2015, 1, 1.0F, 1.0F, 1);
     public static ItemArmor.ArmorMaterial AWQUASAR = EnumHelper.addArmorMaterial("AWQUASAR", 10000, new int[]{3, 8, 6, 3}, 25);
     public static ItemArmor.ArmorMaterial AMQuasar = EnumHelper.addArmorMaterial("AMQuasar", 1000, new int[]{5, 10, 8, 5}, 30);
     public static ItemArmor.ArmorMaterial ASQuasar = EnumHelper.addArmorMaterial("ASQuasar", 750, new int[]{7, 13, 11, 7}, 35);
@@ -37,6 +38,8 @@ public class ModItems
     public static Item QuasarSword;
     public static Item MQuasarSword;
     public static Item SQuasarSword;
+        public static Item ToolRetriever;
+        public static Item SQuasarPickaxe;
     public static final ItemBase Rock = new ItemRock();
     public static final ItemBase MiniPlanet = new ItemMiniPlanet();
     public static final ItemBase DarkMatter = new ItemDarkMatter();
@@ -69,7 +72,19 @@ public class ModItems
     public static final ItemBase DigitalWatch = new ItemDigitalWatch();
     public static final ItemBase RedCrystal = new ItemRedcrystal();
     public static final ItemBase ProtSQuasar = new ItemProtSQuasar();
-
+    public static final ItemBase EEDust = new ItemEEDust();
+    public static final ItemBase Water = new ItemWater();
+    public static final ItemBase Lava = new ItemLava();
+    public static final ItemBase Monolith = new ItemMonolith();
+    public static final ItemBase Minerals = new ItemMineral();
+    public static final ItemBase Village = new ItemVillage();
+    public static final ItemBase Miner = new ItemMiner();
+        public static final ItemBase Mobs = new ItemMobs();
+    public static final ItemBase Carbon = new ItemCarbon();
+        public static final ItemBase Nature = new ItemNature();
+        public static final ItemBase CropCircle = new ItemCropCircles();
+        public static final ItemBase Core = new ItemCore();
+        public static final ItemBase Rod = new ItemRod();
 
     public static void  init() {
         GameRegistry.registerItem(Quasar, "Quasar");
@@ -87,12 +102,14 @@ public class ModItems
         GameRegistry.registerItem(QSChest = new ItemQCHighArmor("HighQuasarChest", ASQuasar, "HighQuasar", 1), "HighQuasarChest");
         GameRegistry.registerItem(QSLegs = new ItemQCHighArmor("HighQuasarLegs", ASQuasar, "HighQuasar", 2), "HighQuasarLegs");
         GameRegistry.registerItem(QSBoots = new ItemQCHighArmor("HighQuasarBoots", ASQuasar, "HighQuasar", 3), "HighQuasarBoots");
-        GameRegistry.registerItem(ProtQuasar, "ProtQuasar");
+        GameRegistry.registerItem(SQuasarPickaxe = new ItemSQuasarPickaxe("SQuasarPick", SQuasar), "QCHighPickaxe");
         GameRegistry.registerItem(QuasarPickaxe = new ItemQCPickAxe("WeakQuasarPickaxe", WQUASAR), "WeakQuasarPick");
         GameRegistry.registerItem(MQuasarPickaxe = new ItemQCMidPickaxe("MQuasarPickaxe", MQuasar), "QCMidPickaxe");
         GameRegistry.registerItem(QuasarSword = new ItemQCSword("WeakQuasarSword", WQUASAR), "WeakQuasarSword");
         GameRegistry.registerItem(MQuasarSword = new ItemQCMidSword("MQuasarSword", MQuasar), "QCMidSword");
         GameRegistry.registerItem(SQuasarSword = new ItemQCHighSword("SQuasarSword", SQuasar), "QCHighSword");
+        GameRegistry.registerItem(ToolRetriever = new ItemRetriever("Retriever", Retriever), "Retriever");
+        GameRegistry.registerItem(ProtQuasar, "ProtQuasar");
         GameRegistry.registerItem(Rock, "Rock");
         GameRegistry.registerItem(MiniPlanet, "MiniPlanet");
         GameRegistry.registerItem(DarkMatter, "DarkMatter");
@@ -125,5 +142,19 @@ public class ModItems
         GameRegistry.registerItem(DigitalWatch, "DigitalWatch");
         GameRegistry.registerItem(RedCrystal, "Redcrystal");
         GameRegistry.registerItem(ProtSQuasar, "ProtSQuasar");
+        GameRegistry.registerItem(EEDust, "EEDust");
+        GameRegistry.registerItem(Water, "Water");
+        GameRegistry.registerItem(Lava, "Lava");
+        GameRegistry.registerItem(Monolith, "Monolith");
+        GameRegistry.registerItem(Minerals, "Minerals");
+        GameRegistry.registerItem(Village, "Village");
+        GameRegistry.registerItem(Miner, "Miner");
+        GameRegistry.registerItem(Mobs, "Mobs");
+        GameRegistry.registerItem(Carbon, "Carbon");
+        GameRegistry.registerItem(Nature, "Nature");
+        GameRegistry.registerItem(CropCircle, "CropCircle");
+        GameRegistry.registerItem(Core, "Core");
+        GameRegistry.registerItem(Rod, "Rod");
+
     }
 }

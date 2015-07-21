@@ -1,6 +1,7 @@
 package com.nath99000.quasarcraft.item;
 
 import com.nath99000.quasarcraft.Radiation.RadPoints;
+import cpw.mods.fml.common.IFuelHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
@@ -9,7 +10,7 @@ import net.minecraft.world.World;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ItemUranium extends ItemQCFood
+public class ItemUranium extends ItemQCFood implements IFuelHandler
 {
     public ItemUranium()
 
@@ -29,5 +30,11 @@ public class ItemUranium extends ItemQCFood
     @Override
     protected void onFoodEaten(ItemStack stack, World world, EntityPlayer player) {
         super.onFoodEaten(stack, world, player);
+        player.addExperience(8);
+    }
+
+    @Override
+    public int getBurnTime(ItemStack fuel) {
+        return 2015;
     }
 }

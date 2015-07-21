@@ -1,11 +1,9 @@
 package com.nath99000.quasarcraft;
 
         import com.nath99000.quasarcraft.config.ConfigHandler;
-        import com.nath99000.quasarcraft.init.ModBlocks;
-        import com.nath99000.quasarcraft.init.ModFluids;
-        import com.nath99000.quasarcraft.init.ModItems;
-        import com.nath99000.quasarcraft.init.Recipes;
+        import com.nath99000.quasarcraft.init.*;
         import com.nath99000.quasarcraft.proxy.Iproxy;
+        import com.nath99000.quasarcraft.proxy.Commonproxy;
         import com.nath99000.quasarcraft.reference.Reference;
         import com.nath99000.quasarcraft.utility.LogHelper;
         import com.nath99000.quasarcraft.world.QCWorldGen;
@@ -14,6 +12,7 @@ package com.nath99000.quasarcraft;
         import cpw.mods.fml.common.event.FMLInitializationEvent;
         import cpw.mods.fml.common.event.FMLPostInitializationEvent;
         import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+        import cpw.mods.fml.common.network.NetworkRegistry;
         import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.Id, name = Reference.Name, version = Reference.Version)
@@ -24,6 +23,8 @@ public class quasarcraft
 
     @SidedProxy(clientSide = Reference.ClientProxy, serverSide = Reference.ServerProxy)
     public static Iproxy proxy;
+    public static Commonproxy proxycommon;
+
 
             @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -33,6 +34,7 @@ public class quasarcraft
                 ModItems.init();
                 ModBlocks.init();
                 Recipes.init();
+                ModTileEntity.init();
 
 
             }

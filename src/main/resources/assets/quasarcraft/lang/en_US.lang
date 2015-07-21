@@ -1,3 +1,4 @@
+//1.0 version
 item.quasarcraft:Quasar.name=Weak Quasar
 tile.quasarcraft:MiniQuasarBlock.name=Weak Quasar Block
 itemGroup.quasarcraft=QuasarCraft
@@ -16,6 +17,7 @@ item.WeakQuasarSword.name=Weak Quasar Sword
 item.quasarcraft:Rock.name=Rock
 item.quasarcraft:MiniPlanet.name=Miniature Planet
 item.quasarcraft:DarkMatter.name=Dark Matter
+//1.2 version
 item.quasarcraft:QuasarBlaze.name=Blaze Pervaded MiniQuasar
 item.quasarcraft:NebulousGas.name=Nebulous Gas
 item.quasarcraft:StarDust.name=Stardust
@@ -52,6 +54,7 @@ item.quasarcraft:TrailMix.name=Trail Mix
 tile.quasarcraft:UraniumOre.name=Uranium ore
 item.quasarcraft:Uranium.name=Uranium
 item.quasarcraft:Bacon.name=Bacon
+//1.2 version
 item.MQuasarSword.name=Medium-Strength Quasar Katana
 item.quasarcraft:QuasarHigh.name=Strong Quasar
 item.quasarcraft:Galaxy.name=Galaxy
@@ -59,9 +62,29 @@ item.quasarcraft:DigitalWatch.name=Digital Watch
 tile.quasarcraft:UraniumBlock.name=Block of Uranium
 item.quasarcraft:RedCrystal.name=RedCrystal
 item.quasarcraft:ProtSQuasar.name=Strong Protection-Ingrained Quasar
-item:HighQuasarHelm.name=Strong Quasar Helm
-item:HighQuasarChest.name=Strong Quasar Chestplate
-item:HighQuasarLegs.name=Strong Quasar Legs
-item:HighQuasarBoots.name=Strong Quasar Boots
+item.HighQuasarHelm.name=Strong Quasar Helm
+item.HighQuasarChest.name=Strong Quasar Chestplate
+item.HighQuasarLegs.name=Strong Quasar Legs
+item.HighQuasarBoots.name=Strong Quasar Boots
 item.SQuasarSword.name=Strong Quasar Katana
-
+item.quasarcraft:Redcrystal.name=RedCrystal
+tile.quasarcraft:HighQuasarBlock.name=Strong Quasar Block
+tile.quasarcraft:HighQuasarPillar.name=Strong Quasar Pillar
+item.quasarcraft:EEDust.name=Equivalent Dust
+item.quasarcraft:Water.name=Water Droplet
+item.quasarcraft:Lava.name=Lava drop
+item.quasarcraft:Monolith.name=Monolith
+item.quasarcraft:Minerals.name=Mineral deposit
+item.quasarcraft:Village.name=Conditioning village
+tile.quasarcraft:Crate.name=TileEntityTestBlock
+item.quasarcraft:Miner.name=Mini-Mining Plant
+item.quasarcraft:Mobs.name=Mini-Mobs
+item.quasarcraft:Carbon.name=Carbon Chunks
+item.quasarcraft:Nature.name=Nature
+item.quasarcraft:Cropcircles.name=Crop Circle
+item.ToolRetriever.name=Retriever
+tile.quasarcraft:NaturePlanet.name=Developed planet
+item.quasarcraft:Core.name=Galactic core
+item.SQuasarPick.name=Strong Quasar Pickaxe
+tile.quasarcraft:MiningPlanet.name=Developed planet
+item.quasarcraft:Rod.name=Obsidian rod

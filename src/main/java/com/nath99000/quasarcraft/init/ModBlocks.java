@@ -1,6 +1,8 @@
 package com.nath99000.quasarcraft.init;
 
 import com.nath99000.quasarcraft.block.*;
+import com.nath99000.quasarcraft.item.Modules.MiningPlanet;
+import com.nath99000.quasarcraft.item.Modules.NaturePlanet;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -22,6 +24,11 @@ public class ModBlocks
     public static final BlockBase SpiceOre = new SpiceOre();
     public static final BlockBase UraniumOre = new UraniumOre();
     public static final BlockBase UraniumBlock = new BlockUranium();
+    public static final BlockBase HighQuasarBlock = new HighQuasarBlock();
+    public static final BlockBase HighQuasarPillar = new HighQuasarPillar();
+    public static final BlockBase Crate = new Crate();
+    public static final BlockBase NaturePlanet = new NaturePlanet();
+    public static final BlockBase MiningPlanet = new MiningPlanet();
 
 
 
@@ -46,6 +53,10 @@ public class ModBlocks
         GameRegistry.registerBlock(SpiceOre, "SpiceOre");
         GameRegistry.registerBlock(UraniumOre, "UraniumOre");
         GameRegistry.registerBlock(UraniumBlock, "UraniumBlock");
-
+        GameRegistry.registerBlock(HighQuasarBlock,"HighQuasarBlock");
+        GameRegistry.registerBlock(HighQuasarPillar, "HighQuasarPillar");
+        GameRegistry.registerBlock(Crate, "Crate");
+        GameRegistry.registerBlock(NaturePlanet, "NaturePlanet");
+        GameRegistry.registerBlock(MiningPlanet, "MiningPlanet");
     }
 }
