@@ -3,12 +3,13 @@ package com.nath99000.quasarcraft.block.TileEntity;
 import com.nath99000.quasarcraft.reference.Reference;
 import com.nath99000.quasarcraft.utility.LogHelper;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.registry.VillagerRegistry;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ChatComponentTranslation;
 import net.minecraft.world.World;
 
-public class CrateTileEntity extends TileEntity {
+public class CrateTileEntity extends TileEntity{
 int tick = 0;
     public static final String publicName = "CrateEntity";
     private String name = "CrateEntity";

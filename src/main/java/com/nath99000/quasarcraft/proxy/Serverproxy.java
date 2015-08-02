@@ -5,4 +5,5 @@ package com.nath99000.quasarcraft.proxy;
  */
 public class Serverproxy extends Commonproxy
 {
+
 }

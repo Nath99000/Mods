@@ -29,7 +29,8 @@ public class ModBlocks
     public static final BlockBase Crate = new Crate();
     public static final BlockBase NaturePlanet = new NaturePlanet();
     public static final BlockBase MiningPlanet = new MiningPlanet();
-
+    public static final BlockBase Statue = new BlockStatue();
+    public static final BlockBase XRBlock = new BlockXRBlock();
 
 
 
@@ -58,5 +59,7 @@ public class ModBlocks
         GameRegistry.registerBlock(Crate, "Crate");
         GameRegistry.registerBlock(NaturePlanet, "NaturePlanet");
         GameRegistry.registerBlock(MiningPlanet, "MiningPlanet");
+        GameRegistry.registerBlock(Statue, "Statue");
+        GameRegistry.registerBlock(XRBlock, "XRBlock");
     }
 }

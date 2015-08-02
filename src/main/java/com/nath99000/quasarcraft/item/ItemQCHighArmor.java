@@ -15,6 +15,7 @@ public class ItemQCHighArmor extends ItemArmor {
     {
         this.setCreativeTab(CreativeTabQC.QC_TAB);
     }
+
     public String textureName;
 
     public ItemQCHighArmor(String QArmor, ArmorMaterial ASQUASAR, String AMQuasar, int type) {

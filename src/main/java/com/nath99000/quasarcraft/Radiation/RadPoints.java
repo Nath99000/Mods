@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class RadPoints extends WorldSavedData implements IRadpoints
     {
-        int currentRad = 0;
+        static int currentRad = 0;
         public RadPoints(String par1Str)
         {
             super(par1Str);

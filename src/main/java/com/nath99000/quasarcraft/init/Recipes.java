@@ -1,10 +1,14 @@
 package com.nath99000.quasarcraft.init;
 
+import com.nath99000.quasarcraft.creativetab.CreativeTabQC;
+import com.nath99000.quasarcraft.entity.ModEntity;
 import com.nath99000.quasarcraft.item.ItemProtMQuasar;
 import com.nath99000.quasarcraft.item.ItemQuasarBlaze;
 import com.nath99000.quasarcraft.quasarcraft;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
+import net.minecraft.entity.EntityList;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -12,15 +16,18 @@ import net.minecraft.item.ItemStack;
 import com.nath99000.quasarcraft.item.ItemMiniStar;
 import com.nath99000.quasarcraft.init.ModItems;
 
-public class Recipes
-{
-    public static void init()
-    {
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+public class Recipes {
+    public static HashMap entityEggs = new LinkedHashMap();
+
+    public static void init() {
         //Initial release
-        GameRegistry.addRecipe(new ItemStack(ModItems.Quasar), "BMB","MDM", "BMB", 'B', new ItemStack(Items.blaze_powder), 'M', new ItemStack(ModItems.MiniStar), 'D', new ItemStack(Items.diamond));
+        GameRegistry.addRecipe(new ItemStack(ModItems.Quasar), "BMB", "MDM", "BMB", 'B', new ItemStack(Items.blaze_powder), 'M', new ItemStack(ModItems.MiniStar), 'D', new ItemStack(Items.diamond));
         GameRegistry.addRecipe(new ItemStack(ModItems.MiniStar), "BGB", "GNG", "BGB", 'B', new ItemStack(Items.blaze_powder), 'G', new ItemStack(Items.glowstone_dust), 'N', new ItemStack(Items.gold_nugget));
         GameRegistry.addRecipe(new ItemStack(ModItems.QuasarEnder, 16), "ESE", "SYS", "ESE", 'E', new ItemStack(Items.ender_pearl), 'S', new ItemStack(Items.ender_eye), 'Y', new ItemStack(ModItems.Quasar));
-        GameRegistry.addRecipe(new ItemStack(ModItems.ProtQuasar,4), " Q ", "QYQ", " Q ", 'Q', new ItemStack(Items.diamond), 'Y', new ItemStack(ModItems.Quasar));
+        GameRegistry.addRecipe(new ItemStack(ModItems.ProtQuasar, 4), " Q ", "QYQ", " Q ", 'Q', new ItemStack(Items.diamond), 'Y', new ItemStack(ModItems.Quasar));
         GameRegistry.addRecipe(new ItemStack(ModItems.QHelm), "QQQ", "Q Q", "   ", 'Q', new ItemStack(ModItems.ProtQuasar));
         GameRegistry.addRecipe(new ItemStack(ModItems.QBoot), "   ", "Q Q", "Q Q", 'Q', new ItemStack(ModItems.ProtQuasar));
         GameRegistry.addRecipe(new ItemStack(ModItems.QChest), "Q Q", "QQQ", "QQQ", 'Q', new ItemStack(ModItems.ProtQuasar));
@@ -87,7 +94,7 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Minerals), new ItemStack(Items.emerald), new ItemStack(ModItems.RedCrystal), new ItemStack(ModItems.Uranium), new ItemStack(Blocks.iron_ore), new ItemStack(Blocks.gold_ore), new ItemStack(Blocks.lapis_ore), new ItemStack(Items.coal), new ItemStack(Items.diamond), new ItemStack(Blocks.stone));
         GameRegistry.addRecipe(new ItemStack(ModItems.Village), "SPS", "LCL", "CCC", 'S', new ItemStack(Blocks.oak_stairs), 'P', new ItemStack(Blocks.planks), 'L', new ItemStack(Blocks.log), 'C', new ItemStack(Blocks.cobblestone));
         GameRegistry.addRecipe(new ItemStack(ModItems.Miner), "IPI", "RQL", "III", 'I', new ItemStack(Items.iron_ingot), 'P', new ItemStack(Blocks.sticky_piston), 'R', new ItemStack(Items.repeater), 'Q', new ItemStack(ModItems.QuasarPickaxe), 'L', new ItemStack(Blocks.lever), 'I', new ItemStack(Items.iron_ingot));
-        GameRegistry.addRecipe(new ItemStack(Blocks.end_portal_frame), "BSB", "SES", "BSB", 'B', new ItemStack(Blocks.obsidian),'S', new ItemStack(Blocks.end_stone),'E', new ItemStack(Items.ender_eye));
+        GameRegistry.addRecipe(new ItemStack(Blocks.end_portal_frame), "BSB", "SES", "BSB", 'B', new ItemStack(Blocks.obsidian), 'S', new ItemStack(Blocks.end_stone), 'E', new ItemStack(Items.ender_eye));
         GameRegistry.addRecipe(new ItemStack(Blocks.end_portal), "EPE", "P P", "EPE", 'E', new ItemStack(Items.ender_eye), 'P', new ItemStack(Blocks.end_portal_frame));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.Mobs), new ItemStack(Items.porkchop), new ItemStack(Items.gunpowder), new ItemStack(Items.ender_pearl), new ItemStack(Items.beef), new ItemStack(Blocks.wool), new ItemStack(Items.rotten_flesh), new ItemStack(Items.feather), new ItemStack(Items.bone), new ItemStack(Items.spider_eye));
         GameRegistry.addSmelting(Items.coal, new ItemStack(ModItems.Carbon), 0.2F);
@@ -95,7 +102,7 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModItems.CropCircle), "WWW", "W W", "WWW", 'W', new ItemStack(Items.wheat));
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.NaturePlanet), new ItemStack(ModItems.Monolith), new ItemStack(ModItems.Village), new ItemStack(ModItems.Mobs), new ItemStack(ModItems.Nature), new ItemStack(ModItems.Water), new ItemStack(ModItems.Rock), new ItemStack(ModItems.CropCircle), new ItemStack(ModItems.MiniPlanet), new ItemStack(ModItems.Water));
         GameRegistry.addRecipe(new ItemStack(ModItems.Core), "DED", "EGE", "DED", 'D', new ItemStack(Items.diamond), 'E', new ItemStack(Blocks.end_stone), 'G', new ItemStack(ModItems.Galaxy));
-        GameRegistry.addRecipe(new ItemStack(ModItems.ToolRetriever), "IIC", "  B", "  B", 'I', new ItemStack(Blocks.end_stone), 'C',  new ItemStack(ModItems.Core), 'B', new ItemStack(ModItems.Rod));
+        GameRegistry.addRecipe(new ItemStack(ModItems.ToolRetriever), "IIC", "  B", "  B", 'I', new ItemStack(Blocks.end_stone), 'C', new ItemStack(ModItems.Core), 'B', new ItemStack(ModItems.Rod));
         GameRegistry.addRecipe(new ItemStack(ModItems.SQuasarSword), " Q ", " Q ", " E ", 'Q', new ItemStack(ModItems.QuasarHigh), 'E', new ItemStack(ModItems.Rod));
         GameRegistry.addRecipe(new ItemStack(ModItems.SQuasarPickaxe), "QQQ", " E ", " E ", 'Q', new ItemStack(ModItems.QuasarHigh), 'E', new ItemStack(ModItems.Rod));
         GameRegistry.addShapelessRecipe(new ItemStack(Blocks.end_stone, 2), new ItemStack(Blocks.end_stone), new ItemStack(Blocks.cobblestone), new ItemStack(ModItems.EEDust));
@@ -104,5 +111,23 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModBlocks.HighQuasarBlock), "QQQ", "QQQ", "QQQ", 'Q', new ItemStack(ModItems.QuasarHigh));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.HighQuasarPillar, 8), "SSS", "SQS", "SSS", 'S', new ItemStack(Blocks.stone), 'Q', new ItemStack(ModItems.QuasarHigh));
         GameRegistry.addRecipe(new ItemStack(ModItems.DarkMatter), "NDN", "DND", "NDN", 'N', new ItemStack(ModItems.NebulousGas), 'D', new ItemStack(Items.diamond));
+        //1.3 release
+        GameRegistry.addRecipe(new ItemStack(ModItems.Universe), "GGG", "GQG", "GGG", 'G', new ItemStack(ModItems.Galaxy), 'Q', new ItemStack(ModItems.QuasarHigh));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DeadQuasar), new ItemStack(ModItems.QuasarHigh), new ItemStack(ModItems.Universe));
+        //this is the recipe for veritas's spawn egg, as long as there are no other entities registered under this Id.the dynamic entity variable will eventually be changed to a config variable, so that it will work no matter what entities are registered.
+        GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 1, 3), "GGG", "UEU", "GGG", 'U', new ItemStack(ModItems.Universe), 'G', new ItemStack(ModItems.Galaxy), 'E', new ItemStack(Blocks.dragon_egg));
+        Blocks.dragon_egg.setCreativeTab(CreativeTabQC.QC_TAB);
+        GameRegistry.addRecipe(new ItemStack(Blocks.dragon_egg), "ENE", "NGN", "ENE", 'E', new ItemStack(Blocks.obsidian), 'N', new ItemStack(Items.nether_star), 'G', new ItemStack(Items.egg));
+        GameRegistry.addRecipe(new ItemStack(ModItems.HellRod), " GB", " OG", "G  ", 'B', new ItemStack(ModItems.QuasarBlaze), 'G', new ItemStack(Items.gold_ingot), 'O', new ItemStack(ModItems.Rod));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.QuasarXR), new ItemStack(ModItems.DeadQuasar), new ItemStack(ModItems.Reality));
+        GameRegistry.addRecipe(new ItemStack(ModItems.RealityBow), " OR", "U R", " OR", 'O', new ItemStack(ModItems.Rod), 'R', new ItemStack(ModItems.Reality), 'U', new ItemStack(ModItems.Universe));
+        GameRegistry.addRecipe(new ItemStack(ModItems.XRSword), " X ", " X ", " R ", 'X', new ItemStack(ModItems.QuasarXR), 'R', new ItemStack(ModItems.Rod));
+        GameRegistry.addRecipe(new ItemStack(ModItems.XRBoots), "   ", "X X", "X X", 'X', new ItemStack(ModItems.QuasarXR));
+        GameRegistry.addRecipe(new ItemStack(ModItems.XRChest), "X X", "XXX", "XXX", 'X', new ItemStack(ModItems.QuasarXR));
+        GameRegistry.addRecipe(new ItemStack(ModItems.XRLegs), "XXX", "X X", "X X", 'X', new ItemStack(ModItems.QuasarXR));
+        GameRegistry.addRecipe(new ItemStack(ModItems.XRHelm), "XXX", "X X", "   ", 'X', new ItemStack(ModItems.QuasarXR));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.EnderDust), new ItemStack(Items.ender_pearl));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ChorusFrut), new ItemStack(Items.apple), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.XRBlock), "XXX", "XXX", "XXX", 'X', new ItemStack(ModItems.QuasarXR));
     }
 }

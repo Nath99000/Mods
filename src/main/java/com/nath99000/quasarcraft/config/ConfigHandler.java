@@ -16,6 +16,8 @@ public class ConfigHandler
             configuration.load();
 
          configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example config value").getBoolean(true);
+         configValue = configuration.get(Configuration.CATEGORY_GENERAL, "EntityID", true, "Veritas' entity ID").isIntValue();
+
         }
         catch (Exception e)
         {

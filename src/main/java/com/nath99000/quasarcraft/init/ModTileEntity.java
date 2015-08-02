@@ -12,4 +12,5 @@ public class ModTileEntity {
     public static void init(){
     GameRegistry.registerTileEntity(CrateTileEntity.class, CrateTileEntity.publicName);
     }
+
 }

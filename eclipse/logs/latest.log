@@ -1,25 +1,27 @@
-[17:17:51] [main/INFO]: Setting user: Player606
-[17:17:53] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:18:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
-[17:18:06] [Sound Library Loader/INFO]: Sound engine started
-[17:18:08] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:18:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[17:18:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
-[17:18:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:18:09] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[17:18:10] [Sound Library Loader/INFO]: Sound engine started
-[17:18:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:18:15] [Server thread/INFO]: Generating keypair
-[17:18:15] [Server thread/INFO]: Preparing start region for level 0
-[17:18:16] [Server thread/INFO]: Changing view distance to 5, from 10
-[17:18:17] [Server thread/INFO]: Player606[local:E:f3358cd7] logged in with entity id 40 at (-39.985154493997754, 57.0, 700.7448106606716)
-[17:18:17] [Server thread/INFO]: Player606 joined the game
-[17:18:21] [Server thread/INFO]: Player606 has just earned the achievement [Taking Inventory]
-[17:18:21] [Client thread/INFO]: [CHAT] Player606 has just earned the achievement [Taking Inventory]
-[17:18:55] [Client thread/INFO]: Stopping!
-[17:18:55] [Server thread/INFO]: Stopping server
-[17:18:55] [Server thread/INFO]: Saving players
-[17:18:55] [Server thread/INFO]: Saving worlds
-[17:18:55] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[17:18:55] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[17:18:55] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[10:33:15] [main/INFO]: Setting user: Player751
+[10:33:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:33:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[10:33:29] [Sound Library Loader/INFO]: Sound engine started
+[10:33:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:33:32] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:33:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[10:33:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:33:33] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:33:34] [Sound Library Loader/INFO]: Sound engine started
+[10:33:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:33:38] [Server thread/INFO]: Generating keypair
+[10:33:39] [Server thread/INFO]: Preparing start region for level 0
+[10:33:40] [Server thread/INFO]: Changing view distance to 5, from 10
+[10:33:41] [Server thread/INFO]: Player751[local:E:f132d169] logged in with entity id 72 at (-24.288879071515197, 56.0, 700.4294336615812)
+[10:33:41] [Server thread/INFO]: Player751 joined the game
+[10:34:00] [Server thread/INFO]: Saving and pausing game...
+[10:34:00] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[10:34:01] [Server thread/INFO]: Stopping server
+[10:34:01] [Server thread/INFO]: Saving players
+[10:34:01] [Server thread/INFO]: Saving worlds
+[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
+[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
+[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
+[10:34:02] [Client thread/INFO]: Stopping!
