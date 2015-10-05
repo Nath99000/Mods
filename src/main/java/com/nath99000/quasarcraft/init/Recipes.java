@@ -15,6 +15,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import com.nath99000.quasarcraft.item.ItemMiniStar;
 import com.nath99000.quasarcraft.init.ModItems;
+import net.minecraftforge.oredict.ShapedOreRecipe;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -115,7 +117,7 @@ public class Recipes {
         GameRegistry.addRecipe(new ItemStack(ModItems.Universe), "GGG", "GQG", "GGG", 'G', new ItemStack(ModItems.Galaxy), 'Q', new ItemStack(ModItems.QuasarHigh));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.DeadQuasar), new ItemStack(ModItems.QuasarHigh), new ItemStack(ModItems.Universe));
         //this is the recipe for veritas's spawn egg, as long as there are no other entities registered under this Id.the dynamic entity variable will eventually be changed to a config variable, so that it will work no matter what entities are registered.
-        GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 1, 3), "GGG", "UEU", "GGG", 'U', new ItemStack(ModItems.Universe), 'G', new ItemStack(ModItems.Galaxy), 'E', new ItemStack(Blocks.dragon_egg));
+        GameRegistry.addRecipe(new ItemStack(Items.spawn_egg, 1, 94547), "GGG", "UEU", "GGG", 'U', new ItemStack(ModItems.Universe), 'G', new ItemStack(ModItems.Galaxy), 'E', new ItemStack(Blocks.dragon_egg));
         Blocks.dragon_egg.setCreativeTab(CreativeTabQC.QC_TAB);
         GameRegistry.addRecipe(new ItemStack(Blocks.dragon_egg), "ENE", "NGN", "ENE", 'E', new ItemStack(Blocks.obsidian), 'N', new ItemStack(Items.nether_star), 'G', new ItemStack(Items.egg));
         GameRegistry.addRecipe(new ItemStack(ModItems.HellRod), " GB", " OG", "G  ", 'B', new ItemStack(ModItems.QuasarBlaze), 'G', new ItemStack(Items.gold_ingot), 'O', new ItemStack(ModItems.Rod));
@@ -129,5 +131,6 @@ public class Recipes {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.EnderDust), new ItemStack(Items.ender_pearl));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ChorusFrut), new ItemStack(Items.apple), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust), new ItemStack(ModItems.EnderDust));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.XRBlock), "XXX", "XXX", "XXX", 'X', new ItemStack(ModItems.QuasarXR));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.Reality), "materialRealityThreadFALSE"));
     }
 }

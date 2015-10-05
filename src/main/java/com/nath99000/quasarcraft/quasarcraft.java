@@ -63,6 +63,10 @@ public class quasarcraft
                 AchievementPage.registerAchievementPage(new AchievementPage("QuasarCraft", new Achievement[]{QCAUranium, QCAQuasar}));
                 GameRegistry.registerTileEntity(TileEntityStatue.class, "TileEntityStatue");
                 OreDictionary.registerOre("Uranium", ModItems.Uranium);
+                OreDictionary.registerOre("materialRealiyThread", ModItems.Reality);
+                OreDictionary.registerOre("itemQuasarWeak", ModItems.Quasar);
+                OreDictionary.registerOre("itemQuasarMid", ModItems.QuasarMid);
+
 
 
 

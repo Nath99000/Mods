@@ -1,27 +1,28 @@
-[10:33:15] [main/INFO]: Setting user: Player751
-[10:33:18] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:33:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
-[10:33:29] [Sound Library Loader/INFO]: Sound engine started
-[10:33:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:33:32] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[10:33:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
-[10:33:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:33:33] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[10:33:34] [Sound Library Loader/INFO]: Sound engine started
-[10:33:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:33:38] [Server thread/INFO]: Generating keypair
-[10:33:39] [Server thread/INFO]: Preparing start region for level 0
-[10:33:40] [Server thread/INFO]: Changing view distance to 5, from 10
-[10:33:41] [Server thread/INFO]: Player751[local:E:f132d169] logged in with entity id 72 at (-24.288879071515197, 56.0, 700.4294336615812)
-[10:33:41] [Server thread/INFO]: Player751 joined the game
-[10:34:00] [Server thread/INFO]: Saving and pausing game...
-[10:34:00] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[10:34:01] [Server thread/INFO]: Stopping server
-[10:34:01] [Server thread/INFO]: Saving players
-[10:34:01] [Server thread/INFO]: Saving worlds
-[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Overworld
-[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/Nether
-[10:34:01] [Server thread/INFO]: Saving chunks for level 'LOL'/The End
-[10:34:02] [Client thread/INFO]: Stopping!
+[10:56:02] [main/INFO]: Setting user: Player928
+[10:56:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:56:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[10:56:18] [Sound Library Loader/INFO]: Sound engine started
+[10:56:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:56:23] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:56:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:QuasarCraft
+[10:56:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:56:24] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[10:56:25] [Sound Library Loader/INFO]: Sound engine started
+[10:56:33] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:56:33] [Server thread/INFO]: Generating keypair
+[10:56:34] [Server thread/INFO]: Preparing start region for level 0
+[10:56:35] [Server thread/INFO]: Preparing spawn area: 13%
+[10:56:37] [Server thread/INFO]: Changing view distance to 5, from 10
+[10:56:38] [Server thread/INFO]: Player928[local:E:04d55620] logged in with entity id 1586 at (-313.3874105544771, 58.0, -154.2774351310252)
+[10:56:38] [Server thread/INFO]: Player928 joined the game
+[10:58:44] [Server thread/INFO]: Saving and pausing game...
+[10:58:44] [Server thread/INFO]: Saving chunks for level 'VeritasTester'/Overworld
+[10:58:44] [Server thread/INFO]: Saving chunks for level 'VeritasTester'/Nether
+[10:58:44] [Server thread/INFO]: Saving chunks for level 'VeritasTester'/The End
+[10:58:45] [Server thread/INFO]: Stopping server
+[10:58:45] [Server thread/INFO]: Saving players
+[10:58:45] [Server thread/INFO]: Saving worlds
+[10:58:45] [Server thread/INFO]: Saving chunks for level 'VeritasTester'/Overworld
+[10:58:45] [Server thread/INFO]: Saving chunks for level 'VeritasTester'/Nether
+[10:58:45] [Server thread/INFO]: Saving chunks for level 'VeritasTester'/The End
+[10:58:46] [Client thread/INFO]: Stopping!
